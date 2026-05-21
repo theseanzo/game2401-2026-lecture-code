@@ -19,6 +19,9 @@ MonoBehaviour:
   - _symbol: P
     _prefab: {fileID: 5291739676541984806, guid: f0b9187234ded4344ac43d784d293dff, type: 3}
     _walkable: 1
+  - _symbol: S
+    _prefab: {fileID: 5291739676541984806, guid: e2ade23aa68d2434ea56dbf4761c4cfd, type: 3}
+    _walkable: 1
   - _symbol: G
     _prefab: {fileID: 5058703390200789179, guid: 99a613cf44af74b01aafe7456cd3f9ee, type: 3}
     _walkable: 1

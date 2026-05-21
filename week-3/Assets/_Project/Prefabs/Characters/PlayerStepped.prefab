@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 642272320797945953}
-  - component: {fileID: 146369373857036866}
-  - component: {fileID: 146369373857036867}
+  - component: {fileID: -5649076135916754247}
+  - component: {fileID: 6334597907146545310}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerStepped
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34,20 +34,7 @@ Transform:
   - {fileID: 2302516048208139}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &146369373857036866
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5291739676541984806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cfbffedf3ea4126ad6585bfffa19589, type: 3}
-  m_Name:
-  m_EditorClassIdentifier: Assembly-CSharp::_Project.Code.Gameplay.Player.PacmanMover
-  _speed: 5
---- !u!114 &146369373857036867
+--- !u!114 &-5649076135916754247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,8 +44,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e5b757822eb437286a68686b15b0f9b, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::_Project.Code.Gameplay.Player.PlayerController
+--- !u!114 &6334597907146545310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5291739676541984806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b65b9f668d44768916f75efb4889da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::_Project.Code.Gameplay.Player.StepMover
+  _speed: 8
 --- !u!1001 &5004232486356322833
 PrefabInstance:
   m_ObjectHideFlags: 0
