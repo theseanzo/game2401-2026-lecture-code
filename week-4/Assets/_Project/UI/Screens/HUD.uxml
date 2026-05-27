@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="hud-root" class="hud-root">
+        <ui:VisualElement name="pickup-notice" class="pickup-notice">
+            <ui:Label name="pickup-label" text="" class="pickup-label" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
