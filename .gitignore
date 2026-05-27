@@ -6,3 +6,6 @@
 **/[Ll]ogs/
 **/[Mm]emoryCaptures/
 **/[Uu]ser[Ss]ettings/
+
+# Project tracking metadata (sean-projects scaffold)
+.project/
