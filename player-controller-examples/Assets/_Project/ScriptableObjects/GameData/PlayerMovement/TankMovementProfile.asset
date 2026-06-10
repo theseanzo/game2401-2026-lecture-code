@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c3d1566ca9c7754ea298bb4fff7d671, type: 3}
+  m_Name: TankMovementProfile
+  m_EditorClassIdentifier: 
+  <WalkSpeed>k__BackingField: 3
+  <RunSpeed>k__BackingField: 6
+  <SprintMultiplier>k__BackingField: 1.5
+  <Acceleration>k__BackingField: 10
+  <Deceleration>k__BackingField: 15
+  <AirAcceleration>k__BackingField: 5.22
+  <RotationSpeed>k__BackingField: 720
+  <RotateTowardsMovement>k__BackingField: 1
+  <RotationSmoothTime>k__BackingField: 0.1
+  <GroundCheckDistance>k__BackingField: 0.1
+  <GroundLayers>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 55
+  <BackwardSpeedMultiplier>k__BackingField: 0.5
+  <TurnSpeed>k__BackingField: 90
+  <CanTurnWhileMoving>k__BackingField: 1
+  <TurnMovementSpeedMultiplier>k__BackingField: 0.7
+  <Gravity>k__BackingField: -15

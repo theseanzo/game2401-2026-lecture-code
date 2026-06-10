@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a13e14c13433a0840a9d263550e81d0b, type: 3}
+  m_Name: InputProfile
+  m_EditorClassIdentifier: 
+  <MouseSensitivity>k__BackingField: 1
+  <GamepadSensitivity>k__BackingField: 3
+  <MoveDeadZone>k__BackingField: 0.026
+  <LookDeadZone>k__BackingField: 0.031
+  <InvertY>k__BackingField: 0
+  <InvertX>k__BackingField: 0
+  <MovementMagnitudeThreshold>k__BackingField: 0.01
+  <DirectionMagnitudeThreshold>k__BackingField: 0.01
+  <LookMagnitudeThreshold>k__BackingField: 0.01
+  <RotationThreshold>k__BackingField: 0.1
+  <VelocityEpsilon>k__BackingField: 0.01
+  <GroundedVelocityThreshold>k__BackingField: 2

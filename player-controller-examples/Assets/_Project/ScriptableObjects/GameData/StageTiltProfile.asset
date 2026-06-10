@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 316efb57140ea407faff3cf30c9d9bf1, type: 3}
+  m_Name: StageTiltProfile
+  m_EditorClassIdentifier: Assembly-CSharp::_Project.Code.Gameplay.Stage.StageTiltProfile
+  <MaxTiltAngle>k__BackingField: 20
+  <TiltSpeed>k__BackingField: 10

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f44ec3f721d8e24e9586bb64177faf7, type: 3}
+  m_Name: JumpingMovementProfile
+  m_EditorClassIdentifier: 
+  <WalkSpeed>k__BackingField: 3
+  <RunSpeed>k__BackingField: 6
+  <SprintMultiplier>k__BackingField: 1.5
+  <Acceleration>k__BackingField: 10
+  <Deceleration>k__BackingField: 1
+  <AirAcceleration>k__BackingField: 5
+  <RotationSpeed>k__BackingField: 720
+  <RotateTowardsMovement>k__BackingField: 1
+  <RotationSmoothTime>k__BackingField: 0.1
+  <GroundCheckDistance>k__BackingField: 0.2
+  <GroundLayers>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 55
+  <JumpHeight>k__BackingField: 1.5
+  <Gravity>k__BackingField: -15
+  <FallGravityMultiplier>k__BackingField: 2
+  <MaxFallSpeed>k__BackingField: 30
+  <CoyoteTime>k__BackingField: 0.15
+  <JumpBufferTime>k__BackingField: 0.2
+  <VariableJumpHeight>k__BackingField: 1
+  <MinJumpMultiplier>k__BackingField: 0.5
+  <AirControlMultiplier>k__BackingField: 0.7
+  <UseApexHangTime>k__BackingField: 1
+  <ApexThreshold>k__BackingField: 2
+  <ApexGravityMultiplier>k__BackingField: 0.3
+  <UseFastFall>k__BackingField: 1
+  <FastFallMultiplier>k__BackingField: 3
+  <EnableDoubleJump>k__BackingField: 1
+  <MaxAirJumps>k__BackingField: 1
+  <AirJumpHeightMultiplier>k__BackingField: 0.9
+  <EnableAirDash>k__BackingField: 1
+  <AirDashDistance>k__BackingField: 1
+  <AirDashDuration>k__BackingField: 0.1
+  <AirDashCooldown>k__BackingField: 1
+  <AirDashOncePerJump>k__BackingField: 1
+  <EnableWallMechanics>k__BackingField: 0
+  <WallLayers>k__BackingField:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  <WallCheckDistance>k__BackingField: 0.5
+  <WallSlideSpeed>k__BackingField: 2
+  <WallJumpForce>k__BackingField: 10
+  <WallJumpUpForce>k__BackingField: 12
+  <WallJumpInputDelay>k__BackingField: 0.2
