@@ -1,0 +1,69 @@
+.titleScreenRoot {
+    width: 100%;
+    height: 100%;
+    background-image: url('project://database/Assets/_Project/Art/Sprites/UI/title_background.png?fileID=2800000&guid=973f69316330ffb4c98e5d47d1c5bf26&type=3#title_background');
+}
+
+.titleBox {
+    width: 80%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transition-property: translate;
+    transition-duration: 0.5s;
+    transition-delay: 2s;
+}
+
+.headerText {
+    -unity-font: url('project://database/Assets/_Project/Fonts/Originals/Dorblue-vzE.ttf?fileID=12800000&guid=2ec940c36ed0cf24ea283fdb7911261e&type=3#Dorblue-vzE');
+    -unity-font-definition: url('project://database/Assets/_Project/Fonts/TMPro/Dorblue-vzE%20SDF%201.asset?fileID=11400000&guid=c0aee61f7dbf08e408b8c8e1717e9057&type=2#Dorblue-vzE SDF 1');
+    -unity-font-style: italic;
+    -unity-text-align: upper-center;
+    font-size: 48px;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+}
+
+.titleHeadline {
+    font-size: 160px;
+}
+
+.menuButton {
+    -unity-font: url('project://database/Assets/_Project/Fonts/Originals/NotoSansJP-VariableFont_wght.ttf?fileID=12800000&guid=01afdbb2366b91e48b3e0068999d14fb&type=3#NotoSansJP-VariableFont_wght');
+    -unity-font-definition: url('project://database/Assets/_Project/Fonts/TMPro/NotoSansJP-VariableFont_wght%20SDF%201.asset?fileID=11400000&guid=fd80558de3c0dd44a803afb97296f897&type=2#NotoSansJP-VariableFont_wght SDF 1');
+    -unity-font-style: bold;
+    font-size: 72px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition-property: translate, background-color;
+    transition-duration: 0.5s, 0.5s;
+    transition-delay: 3s, 0s;
+}
+
+.titleCrosshair {
+    position: absolute;
+    top: 64%;
+    left: 40%;
+    width: 19%;
+    height: 35%;
+    background-image: url('project://database/Assets/OccaSoftware/Crosshairs/Art/Textures/Crosshair_19.png?fileID=2800000&guid=1d78ea13ed0615c4996735add71cbd43&type=3#Crosshair_19');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.flyIn {
+    translate: -200% 0;
+}
+
+.fadeBackground {
+    background-color: rgba(255, 0, 0, 0.08);
+}
+
+.brightenBackground {
+    background-color: rgba(255, 0, 0, 0.78);
+}

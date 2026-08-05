@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/Styles/DialogueStyles.uss?fileID=7433441132597879392&amp;guid=6f1599af9913be04ebbc3c40c9834ddf&amp;type=3#DialogueStyles" />
+    <ui:VisualElement name="dialogueContainer" class="dialogueRoot flyOutLeft">
+        <ui:VisualElement name="characterDisplay" class="characterPortrait" />
+        <ui:VisualElement name="dialogueBox" class="dialogueBox">
+            <ui:VisualElement name="dialogueHeader" class="dialogueHeader">
+                <ui:Label text="Makoto Naegi" display-tooltip-when-elided="true" name="characterName" class="characterNameText" />
+            </ui:VisualElement>
+            <ui:VisualElement name="dialogueArea" class="dialogueArea">
+                <ui:Label text="Well, never mind. No matter how you slice it, she&apos;s really beautiful. Almost like a doll or something" display-tooltip-when-elided="true" name="dialogueText" class="dialogueBodyText" />
+            </ui:VisualElement>
+            <ui:Button display-tooltip-when-elided="true" name="dialogueButton" class="dialogueAdvanceButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

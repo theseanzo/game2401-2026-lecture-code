@@ -1,0 +1,72 @@
+﻿{
+  "characters":[{
+    "reference": "celestia",
+    "name": "Taeko Yasuhiro",
+    "emotions": {"happy": "Celestia_3", "sad": "Celestia_14", "shocked": "Celestia_5", "neutral":"Celestia_0", "angry": "Celestia_10" }
+  },
+    {
+      "reference": "mono",
+      "name": "Monokuma",
+      "emotions": {"happy": "Monokuma_4", "sad": "Monokuma_8", "shocked": "Monokuma_13", "neutral":"Monokuma_1", "angry": "Monokuma_5" }
+    },
+    {
+      "reference": "saya",
+      "name": "Sayaka Maizono",
+      "emotions": {"happy": "Sayaka_6", "sad": "Sayaka_15", "shocked": "Sayaka_11", "neutral":"Sayaka_1", "angry": "Sayaka_12" }
+    },
+    {
+      "reference": "sakura",
+      "name": "Sakura Ogami",
+      "emotions": {"happy": "Sakura_8", "sad": "Sakura_4", "shocked": "Sakura_7", "neutral":"Sakura_1", "angry": "Sakura_9" }
+    },
+    {
+      "reference": "hifu",
+      "name": "Hifuni Yamada",
+      "emotions": {"happy": "Hifumi_10", "sad": "Hifumi_19", "shocked": "Hifumi_8", "neutral":"Hifumi_1", "angry": "Hifumi_13" }
+    }
+  ],
+  "scenes": [
+    {
+      "name": "opening_scene",
+      "order": 1,
+      "background":"bgd_022out",
+      "dialogue": [
+        {"character_ref": "celestia", "emotion": "angry", "text": "How dare you speak to me?"},
+        {"character_ref": "sakura", "emotion": "happy", "text": "Good morning to you, too, darling..."},
+        {"character_ref": "mono", "emotion": "sad", "text": "I dropped my pancakes"},
+        {"character_ref": "celestia", "emotion": "neutral", "text": "I don't care"},
+        {"character_ref": "saya", "emotion": "shocked", "text": "Why can't you all be nice to each other?"},
+        {"character_ref": "hifu", "emotion": "sad", "text": "Don't hurt me. I don't want to get bullied"},
+        {"character_ref": "celestia", "emotion": "angry", "text": "If you don't shut up, I will hurt you."},
+        {"character_ref": "mono", "emotion": "angry", "text": "Why haven't you picked up my pancakes?"},
+        {"character_ref": "hifu", "emotion": "happy", "text": "I will eat the pancakes off the floor!"},
+        {"character_ref": "mono", "emotion": "angry", "text": "ONE V ONE ME. NO ITEMS. FOX ONLY. FINAL DESTINATION"},
+        {"character_ref": "saya", "emotion": "shocked", "text": "Why are you all fighting over pancakes?"},
+        {"character_ref": "celestia", "emotion": "happy", "text": "Thanks for getting rid of that guy"},
+        {"character_ref": "sakura", "emotion": "shocked", "text": "I do not think we should be talking like this in an IHop"}
+        
+
+      ]
+    },
+    {
+      "name": "second_scene",
+      "order": 2,
+      "background":"bgd_100out",
+      "dialogue": [
+        {"character_ref": "mono", "emotion": "angry", "text": "How dare you speak to me?"},
+        {"character_ref": "hifu", "emotion": "happy", "text": "Good morning to you, too, darling..."},
+        {"character_ref": "saya", "emotion": "sad", "text": "I dropped my pancakes"},
+        {"character_ref": "mono", "emotion": "neutral", "text": "I don't care"},
+        {"character_ref": "sakura", "emotion": "shocked", "text": "Why can't you all be nice to each other?"},
+        {"character_ref": "celestia", "emotion": "sad", "text": "Don't hurt me. I don't want to get bullied"},
+        {"character_ref": "mono", "emotion": "angry", "text": "If you don't shut up, I will hurt you."},
+        {"character_ref": "saya", "emotion": "angry", "text": "Why haven't you picked up my pancakes?"},
+        {"character_ref": "celestia", "emotion": "happy", "text": "I will eat the pancakes off the floor!"},
+        {"character_ref": "saya", "emotion": "angry", "text": "ONE V ONE ME. NO ITEMS. FOX ONLY. FINAL DESTINATION"},
+        {"character_ref": "sakura", "emotion": "shocked", "text": "Why are you all fighting over pancakes?"},
+        {"character_ref": "mono", "emotion": "happy", "text": "Thanks for getting rid of that guy"},
+        {"character_ref": "hifu", "emotion": "shocked", "text": "I do not think we should be talking like this in an IHop"}
+      ]
+    }
+  ]
+}

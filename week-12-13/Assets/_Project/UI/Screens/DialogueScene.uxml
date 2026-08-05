@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/Styles/DialogueStyles.uss?fileID=7433441132597879392&amp;guid=6f1599af9913be04ebbc3c40c9834ddf&amp;type=3#DialogueStyles" />
+    <ui:VisualElement name="background" class="sceneBackground" style="background-image: url(&apos;project://database/Assets/Resources/Backgrounds/bgd_053%20(2)out.png?fileID=2800000&amp;guid=350849f9283597d4e9634a82fce06879&amp;type=3#bgd_053 (2)out&apos;);" />
+</ui:UXML>

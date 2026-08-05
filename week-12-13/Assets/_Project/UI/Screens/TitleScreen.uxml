@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Project/UI/Styles/TitleText.uss?fileID=7433441132597879392&amp;guid=ea3408c9cffc0b14183d4e4a8ba0ad67&amp;type=3#TitleText" />
+    <ui:VisualElement name="ParentElement" class="titleScreenRoot">
+        <ui:GroupBox name="TitleBox" class="titleBox flyIn">
+            <ui:Label text="Game Programming" display-tooltip-when-elided="true" class="headerText titleHeadline" />
+            <ui:Label text="Creepy Visual Novel Lecture" display-tooltip-when-elided="true" class="headerText" />
+        </ui:GroupBox>
+        <ui:Button text="New" display-tooltip-when-elided="true" name="NewButton" class="menuButton flyIn fadeBackground" />
+        <ui:Button text="Load" display-tooltip-when-elided="true" name="LoadButton" class="menuButton flyIn" />
+        <ui:Button text="Exit" display-tooltip-when-elided="true" name="ExitButton" class="menuButton flyIn" />
+        <ui:VisualElement class="titleCrosshair" />
+    </ui:VisualElement>
+</ui:UXML>
